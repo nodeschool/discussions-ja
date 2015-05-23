@@ -1,60 +1,33 @@
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodeschool/discussions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-# discussions-ja
-
-日本語でどうぞ。
-
-NodeSchoolをやっていてわからないところがありますか? [質問を新規作成](https://github.com/nodeschool/discussions-ja/issues) 
-
-NodeSchool の主催者は [こちら](https://github.com/nodeschool/organizers) でディスカッションしています. あなたが自分で NodeSchoolのワークショップ(Workshop) を作りたい場合は、[こちら(workshoppers repo)](https://github.com/nodeschool/workshoppers) をご覧ください.
+Search before you ask! Someone else has probably asked your question already. [Here is a search example](https://github.com/nodeschool/discussions/issues?utf8=%E2%9C%93&q=learnyounode)
 
 <sub>
-<b>目次</b><br/>
-<b><a href="#when-you-have-a-problem">わからないことがあったら…</a></b><br/>
-&nbsp;<b><a href="#in-general">はじめの一歩</a>:</b>
-<a href="#1---be-nice">1 - 親切に</a>,
-<a href="#2---be-public">2 - すべて公開の場で</a>,
-<a href="#3---be-patient">3 - 忍耐が必要なときもあります</a>,
-<a href="#4---non-english-is-okay">4 - 日本語でOKです</a><br/>
-&nbsp;<b><a href="#suggestions">提案があります</a>:</b>
-<a href="#check-your-installation">インストールの確認</a>,
-<a href="#provide-full-command-output">すべての出力を教えてください</a>,
-<a href="#use-markdown">Markdownを活用しましょう</a>,
-<a href="#say-thanks">『ありがとう』</a>,
-<a href="#close-your-issue">質問(issue)を閉じます</a>,
-<a href="#bikeshedding">待てば海路の日和あり</a><br/>
-
-<b><a href="#about-labels">ラベルについて</a><br/></b>
-<b><a href="#answering-issues"></a>:質問に答える</b>
-<a href="#use-links">リンクを使用</a>,
-<a href="#end-with-a-question">質問の終了</a>,
-<a href="#reformat-issues">issueを再構成</a>,
-<a href="#apply-priorities">優先順位の適用</a>,
-<a href="#close-issues">issueを閉じる</a>
+<b>Table of Contents</b><br/>
+<b><a href="#when-you-have-a-problem">When you have a problem</a><br/></b>
+&nbsp;<b><a href="#in-general">In general</a>:</b> <a href="#1---be-nice">1 - Be nice</a>, <a href="#2---be-public">2 - Be public</a>, <a href="#3---be-patient">3 - Be patient</a>, <a href="#4---non-english-is-okay">4 - Non-English is okay</a><br/>
+&nbsp;<b><a href="#suggestions">Suggestions</a>:</b> <a href="#check-your-installation">Check your installation</a>, <a href="#provide-full-command-output">Provide full command output</a>, <a href="#use-markdown">Use markdown</a>, <a href="#say-thanks">Say thanks!</a>, <a href="#close-your-issue">Close your issue</a>, <a href="#bikeshedding">Bikeshedding</a><br/>
+<b><a href="#about-labels">About Labels</a><br/></b>
+<b><a href="#answering-issues">Answering Issues</a>:</b> <a href="#use-links">Use links</a>, <a href="#end-with-a-question">End with a question</a>, <a href="#reformat-issues">Reformat issues</a>, <a href="#apply-priorities">Apply priorities</a>, <a href="#close-issues">Close issues</a>
 </sub>
 
-# わからないことがあったら…
+# When you have a problem:
 
-:point_right: [**まずFAQを確認してください!**](FAQ.md) :point_left:
+## In general
 
-## はじめの一歩
+### 1 - Be nice
 
-### 1 - 親切に
+All of the workshops and all of the discussions are done by volunteers and there is no guarantee that all questions get answered. If you only provide negative feedback and not constructive criticism your issue will probably get closed with no response.
 
-ワークショップの作成やディスカッションへの回答はすべて無償のボランティアでおこなわれています。
-もし、あなたが否定的で建設的でない批判をするようであれば、あなたの質問には誰も答えてくれなくなるでしょう。
+### 2 - Be public
 
-### 2 - すべて公開の場で
+Don't email workshop authors directly, use the public discussion forum (the Issues) for all communication, that way your question and any answers you get can benefit everyone else.
 
-ワークショップの作者に直接メールを送るのではなく、公開されたディスカッション(issue)を使って、すべての人がそれを見られるようにしてください。
+### 3 - Be patient
 
-### 3 - 忍耐が必要なときもあります
+It may take a day or two for people to respond here. Please don't send multiple messages in a row, it won't help your question get answered any faster.
 
-1日や2日たってから返事がくることもあります。同じメッセージを何度も投稿するのはやめてください。そんなことをしても、早く返事をもらえるわけではありません。
+### 4 - Non-English is okay!
 
-### 4 - 日本語でOKです。
-
-もともと、世界中でつかうためのディスカッション用に [nodeschool/discussion](https://github.com/nodeschool/discussions) が用意されていたのですが、日本語でのディスカッションをやりやすくするために、このレポジトリを作成しました。日本語で思う存分、活用してください。
+If you can't read or write english well its better to write additionally your question in your native language. There are many people on this site and maybe people can help you in your mother-tongue.
 
 ## Suggestions
 
@@ -136,10 +109,7 @@ In case you feel confident to answer multiple issues it might be a good idea to 
 2. [Issues with no comments](https://github.com/nodeschool/discussions/issues?q=is%3Aopen+is%3Aissue+comments%3A0+): Think of an answer
 3. [Issues that are least recently updated](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+no%3Alabels): Add the `waiting-for-response` label in case its not given and ask a question in case none has been asked.
 4. [Issues that `need-some-love`](https://github.com/nodeschool/discussions/issues?q=is%3Aopen+is%3Aissue+label%3Aneeds-some-love): Try to think how to resolve those because they need your love!
-5. [Old Issues that are `waiting-for-feedback`](https://github.com/nodeschool/discussions/issues?q=is%3Aopen+is%3Aissue+label%3Awaiting-for-feedback+sort%3Acreated-asc) Close them and mark as `seems-self-resolved` if they are more than a month old
 
 ## Close issues
 
 If you see an old issue lurking around feel free to apply labels as mentioned above and **close the issue if reasonable**!
-
-
