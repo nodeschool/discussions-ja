@@ -26,9 +26,9 @@ NodeSchool の主催者は [こちら](https://github.com/nodeschool/organizers)
 
 <b><a href="#ラベルについて">ラベルについて</a><br/></b>
 <b><a href="#質問に答える">質問に答える</a>:</b>
-<a href="#リンクを使用">リンクを使用</a>,
-<a href="#質問の終了">質問の終了</a>,
-<a href="#質問(issue)を再構成">質問(issue)を再構成</a>,
+<a href="#リンクを使いましょう">リンクを使いましょう</a>,
+<a href="#質問で終わると……">質問で終わると……</a>,
+<a href="#質問(issue)を再編集">質問(issue)を再編集</a>,
 <a href="#優先順位の適用">優先順位の適用</a>,
 <a href="#質問(issue)を閉じる">質問(issue)を閉じる</a>
 </sub>
@@ -93,7 +93,7 @@ Github では質問を書くときに [markdown記法](https://help.github.com/a
 それぞれのラベルの意味は以下のようなものです:
 
 | ラベル           | 意味                                                                                       |
-|------------------|-------------------------------------------------------------------------------------------- |
+|------------------|--------------------------------------------------------------------------------------------|
 | もっと回答を!    | この質問は、まだまだ継続して回答を募集しています。一定期間、回答がもらえない場合など       |
 | ヒント           | 他の質問や実際のコーディングにも有用なヒントが含まれています                               |
 | node.js          | node.js自体についての質問・疑問                                                            |
@@ -102,37 +102,41 @@ Github では質問を書くときに [markdown記法](https://help.github.com/a
 | Win              | Windows に関連する質問                                                                     |
 | Linux            | Linux に関連する質問                                                                       |
 | 愛をください     | 質問内容が複雑・難解で適切な回答がなかなか得られず、より上級者の協力が欲しい場合           |
-| 自己解決しました | 質問したものの、自分自身で解決できてしまった場合に、このラベルを付けて質問を閉じてください |
+| 自己解決済       | 質問したものの、自分自身で解決できてしまった場合に、このラベルを付けて質問を閉じてください |
 | 解決済           | 閉じられてはいないのに解決済の質問にこのラベルが付けられます                               |
 | 質問             | 問題があるわけではなく、ただ質問のみの場合にこのラベルを付けます                           |
 | 要フィードバック | 回答済だけれども、さらにフィードバックを待っている場合にこのラベルを付けます               |
 
-If you want to add labels to issues, don't be afraid to ask for permissions. Its a github restriction that only owners can add labels.
+ラベルを追加する場合に権限を気にする必要はありません。githubでは 所有者のみがラベルを追加できます。
 
-If you have an issue that doesn't match a label, feel free to add a label and describe it here.
+質問(issue)の内容にラベルが見付けられなかったときは、ラベルを追加してここに追記してください。
 
-# Answering Issues
+# 質問に答える
 
-Owner or not: If you have an answer to a question please don't hesitate to add a comment. There are people who answer issues regularily but those are also volunteers and also only try to do their best.
+所有者か否か: もしあなたが質問に対する回答を持っている場合、躊躇せず回答してあげてください。このディスカッションはボランティアベースでなりたっています。
 
-It is not necessary to follow this but there are some things that we found useful to keep in mind:
+下に書いたいくつかのことを気にとめておいてもらえると、よりよいディスカッションができるのではないかと思います。
 
-## Use links
+## リンクを使いましょう
 
-Many questions are similar. If you can link to other issues or web content that makes your life easier. Keep in mind that the other person still needs an explanation why you give this link.
+いくつもの似たような質問がでてくると思います。他の質問へのリンクを示して簡単に回答することができることもあるかもしれません。
+ただし、リンクには適切な説明をつけるのを忘れないようにしましょう。
 
-## End with a question
+## 質問で終わると……
 
-If you add a question at the end it puts the ball back to the inital questionee and indicates that you think that this comment should fix the issue of the person. i.e.:
+あなたがコメントで質問した場合、もとの質問者が質問(issue)を修正しなければならないことを示しています。
+例えば……
 
- - Could you try that?
- - Does that help you?
- - Does that solve your problem?
- - Do you need more information?
+- 自分でやってみましたか?
+- それはあなたの役にたちますか?
+- 解決しましたか?
+- なにかこれ以外の情報が必要ですか?
 
-## Reformat issues
+(訳註: この文章、なにがいいたいのかよくわからないです。ごめんなさい)
 
-Owners can edit issues. It is often not a good idea to change the issues but adding [Syntax Highlighting](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting) often helps readability and increases the chances of a good response so that we consider that a good exception.
+## 質問(issue)を再編集
+
+質問者 (issueの所有者) は質問を再編集することができます。一度登録した質問の内容を変更するのは、あまりいい考えとは言えませんが、[強調部分](https://help.github.com/articles/github-flavored-markdown/#syntax-highlighting)を追加したりして、読みやすくするのはいい考えだと思います。
 
 ## Apply priorities
 
@@ -147,5 +151,3 @@ In case you feel confident to answer multiple issues it might be a good idea to 
 ## Close issues
 
 If you see an old issue lurking around feel free to apply labels as mentioned above and **close the issue if reasonable**!
-
-
