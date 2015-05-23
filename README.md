@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodeschool/discussions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/nodeschool/nodeschool-japan?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # discussions-ja
 
@@ -10,27 +10,27 @@ NodeSchool の主催者は [こちら](https://github.com/nodeschool/organizers)
 
 <sub>
 <b>目次</b><br/>
-<b><a href="#when-you-have-a-problem">わからないことがあったら…</a></b><br/>
-&nbsp;<b><a href="#in-general">はじめの一歩</a>:</b>
-<a href="#1---be-nice">1 - 親切に</a>,
-<a href="#2---be-public">2 - すべて公開の場で</a>,
-<a href="#3---be-patient">3 - 忍耐が必要なときもあります</a>,
-<a href="#4---non-english-is-okay">4 - 日本語でOKです</a><br/>
-&nbsp;<b><a href="#suggestions">提案があります</a>:</b>
-<a href="#check-your-installation">インストールの確認</a>,
-<a href="#provide-full-command-output">すべての出力を教えてください</a>,
-<a href="#use-markdown">Markdownを活用しましょう</a>,
-<a href="#say-thanks">『ありがとう』</a>,
-<a href="#close-your-issue">質問(issue)を閉じます</a>,
-<a href="#bikeshedding">待てば海路の日和あり</a><br/>
+<b><a href="#わからないことがあったら…">わからないことがあったら…</a></b><br/>
+&nbsp;<b><a href="#はじめの一歩">はじめの一歩</a>:</b>
+<a href="#1---親切に">1 - 親切に</a>,
+<a href="#2---すべて公開の場で">2 - すべて公開の場で</a>,
+<a href="#3---忍耐が必要なときもあります">3 - 忍耐が必要なときもあります</a>,
+<a href="#4---日本語でOKです">4 - 日本語でOKです</a><br/>
+&nbsp;<b><a href="#質問する前に">質問する前に</a>:</b>
+<a href="#インストールの確認">インストールの確認</a>,
+<a href="#すべての出力を教えてください">すべての出力を教えてください</a>,
+<a href="#Markdownを活用しましょう">Markdownを活用しましょう</a>,
+<a href="#『ありがとう』">『ありがとう』</a>,
+<a href="#質問(issue)を閉じます">質問(issue)を閉じます</a>,
+<a href="#待てば海路の日和あり">待てば海路の日和あり</a><br/>
 
-<b><a href="#about-labels">ラベルについて</a><br/></b>
-<b><a href="#answering-issues"></a>:質問に答える</b>
-<a href="#use-links">リンクを使用</a>,
-<a href="#end-with-a-question">質問の終了</a>,
-<a href="#reformat-issues">issueを再構成</a>,
-<a href="#apply-priorities">優先順位の適用</a>,
-<a href="#close-issues">issueを閉じる</a>
+<b><a href="#ラベルについて">ラベルについて</a><br/></b>
+<b><a href="#質問に答える">質問に答える</a>:</b>
+<a href="#リンクを使用">リンクを使用</a>,
+<a href="#質問の終了">質問の終了</a>,
+<a href="#質問(issue)を再構成">質問(issue)を再構成</a>,
+<a href="#優先順位の適用">優先順位の適用</a>,
+<a href="#質問(issue)を閉じる">質問(issue)を閉じる</a>
 </sub>
 
 # わからないことがあったら…
@@ -56,50 +56,56 @@ NodeSchool の主催者は [こちら](https://github.com/nodeschool/organizers)
 
 もともと、世界中でつかうためのディスカッション用に [nodeschool/discussion](https://github.com/nodeschool/discussions) が用意されていたのですが、日本語でのディスカッションをやりやすくするために、このレポジトリを作成しました。日本語で思う存分、活用してください。
 
-## Suggestions
+## 質問する前に
 
-### Check your installation
+### インストールの確認
 
-Often the installation on [windows](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+label%3Awindows+) makes problems. But also other systems can experience troubles. Please also check out [the installation suggestions](https://github.com/nodeschool/discussions/wiki/Installation-suggestions) if you have problems.
+Windowsでのインストール方法が [問題になること](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+label%3Awindows+)(英語) がよくあります。
+それ以外に、他のOS上でトラブルが起きる場合もあります。インストールに問題がある場合は [インストールについて](https://github.com/nodeschool/discussions/wiki/Installation-suggestions)(英語)を確認してみると、問題の解決につながる場合があります。
 
-### Provide *full* command output
+### *すべての*出力を教えてください
 
-To help us debug your problem please include all output from the commands you ran, including any error messages you received.
+質問に添付する場合は、すべての出力を含めるようにしてください。そうすることで、必要以上のやりとりをすることなく、問題が解決する可能性が高くなります。
 
-It also helps to include your node, npm, git or other CLI command versions, which you can get by running `node -v`, `npm -v` etc.
+また、必要と思われる場合は node, npm, git 等のコマンドのバージョンを質問に含めると問題の解決に繋がる場合もあります。 `node -v`, `npm -v` などで確認することができます。
 
-### Use markdown
+### Markdownを活用しましょう
 
-Github offers a lot of support to [format your issue](https://help.github.com/articles/github-flavored-markdown/). It makes it easier for other people to understand your problem.
+Github では質問を書くときに [markdown記法](https://help.github.com/articles/github-flavored-markdown/) を使うことができます。
+わかりやすい質問や回答を書くために markdown記法 を活用してください。
 
-### Say thanks!
+### 『ありがとう』
 
-The person that helped you did it out of the kindness of her/his heart. Tell your appreciation by saying thanks :smile: !
+助けてもらったら、ちゃんと『ありがとう』を言いましょう。みんな笑顔で気持ちよく使えるように……。
 
-### Close your issue
+### 質問(issue)を閉じます
 
-If you don't close your issue another person will have to clean it up later.
+疑問が解決したら質問(issue)を閉じ(close)てください。いつまでも閉じられないと、だれかがその仕事をしなくちゃいけなくなります。
 
-### Bikeshedding
+### 待てば海路の日和あり
 
-Its okay to [bikeshed](http://en.wiktionary.org/wiki/bikeshedding) issues but if you do it would be nice to update it every 14days or so to let people know you still have interest.
+すぐに回答をもらえない場合もあります。回答をもらえないまま日がすぎてしまった場合は、あなたがまだその質問に対する回答が欲しいことを表明するため14日程度を目安に質問を更新しましょう。 [bikeshed](http://en.wiktionary.org/wiki/bikeshedding)
 
-# About Labels
+# ラベルについて
 
-Only [owners](https://github.com/orgs/nodeschool/teams/owners) can add labels to the dicussions issues. We added a lot of labels that makes it easier for contributors to understand the content of an issue. Here is their intended meaning:
+質問の[作成者(owner)](https://github.com/orgs/nodeschool/teams/owners)は質問にラベルを付けることができます。
+やりとりがわかりやすくなるように、いくつかのラベルを定義してありますので、活用してください。
+それぞれのラベルの意味は以下のようなものです:
 
-| Label | Meaning |
-| ----- | ------- |
-| [bikeshedding](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Abikeshedding) | This issue is kept open in case someone wants to jump in. It should be updated every now and then (~14days). |
-| [contains hints for improvements](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Acontains-hint-for-improvement) | This contains hints on how a workshopper/tutorial/website etc. can be improved. The issue should be closed when the improvement was added to the content in question as a [PR](https://help.github.com/articles/using-pull-requests/) or issue. |
-| [general node.js](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Ageneral-node.js) | This is a question not specific to a content in this repository but rather to node.js in general. |
-| [installation](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Ainstallation) | This is an issue with the installation of node or a workshopper. |
-| [mac](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Amac) | This is an issue specific to computers with Mac OS X. |
-| [needs some love](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-some-love+) | This issue is not simple to answer or process. More effort than average needs to be put into this issue and it needs the love and support of the greater community. | 
-| [probably self resolved](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aclosed+label%3Aprobably-self-resolved) | This label is for the case that the person that asked the question has not answered for a longer period of time (~14 days). It should be used by the person who closes an inactive thread to show that she/he thinks that the user probably resolved this issue himself. Usually only closed issues should have this label. |
-| [seems resolved](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aclosed+label%3Aseems-resolved) | This label is to indicate that the issue seems resolved but the user forgot to close the issue. Usually only closed issues should have this label. |
-| [question](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+label%3Aquestion+is%3Aopen) | This issue contains a question that is not a problem. |
-| [waiting for feedback](https://github.com/nodeschool/discussions/issues?q=is%3Aissue+is%3Aopen+label%3Awaiting-for-feedback) | This label is to remember that the issue has been answered but is waiting on additional information or more response. |
+| ラベル           | 意味                                                                                       |
+|------------------+--------------------------------------------------------------------------------------------|
+| もっと回答を!    | この質問は、まだまだ継続して回答を募集しています。一定期間、回答がもらえない場合など       |
+| ヒント           | 他の質問や実際のコーディングにも有用なヒントが含まれています                               |
+| node.js          | node.js自体についての質問・疑問                                                            |
+| インストール     | node.jsやワークショップのインストールに関連する質問                                        |
+| Mac              | Mac OS X に関連する質問                                                                    |
+| Win              | Windows に関連する質問                                                                     |
+| Linux            | Linux に関連する質問                                                                       |
+| 愛をください     | 質問内容が複雑・難解で適切な回答がなかなか得られず、より上級者の協力が欲しい場合           |
+| 自己解決しました | 質問したものの、自分自身で解決できてしまった場合に、このラベルを付けて質問を閉じてください |
+| 解決済           | 閉じられてはいないのに解決済の質問にこのラベルが付けられます                               |
+| 質問             | 問題があるわけではなく、ただ質問のみの場合にこのラベルを付けます                           |
+| 要フィードバック | 回答済だけれども、さらにフィードバックを待っている場合にこのラベルを付けます               |
 
 If you want to add labels to issues, don't be afraid to ask for permissions. Its a github restriction that only owners can add labels.
 
