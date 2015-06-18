@@ -9,8 +9,8 @@ NodeSchoolをやっていてわからないところがありますか? [質問�
 NodeSchool の主催者は [こちら](https://github.com/nodeschool/organizers) でディスカッションしています. あなたが自分で NodeSchoolのワークショップ(Workshop) を作りたい場合は、[こちら(workshoppers repo)](https://github.com/nodeschool/workshoppers) をご覧ください.
 
 <sub>
-<b>目次</b><br/>
-<b><a href="#わからないことがあったら…">わからないことがあったら…</a></b><br/>
+<h3>目次</h3><br/>
+<h4><a href="#わからないことがあったら…">わからないことがあったら…</a></h4>
 &nbsp;<b><a href="#はじめの一歩">はじめの一歩</a>:</b>
 <a href="#1---親切に">1 - 親切に</a>;
 <a href="#2---すべて公開の場で">2 - すべて公開の場で</a>;
@@ -23,8 +23,8 @@ NodeSchool の主催者は [こちら](https://github.com/nodeschool/organizers)
 <a href="#『ありがとう』">『ありがとう』</a>;
 <a href="#質問(issue)を閉じます">質問(issue)を閉じます</a>;
 <a href="#待てば海路の日和あり">待てば海路の日和あり</a><br/>
-&nbsp;<b><a href="#ラベルについて">ラベルについて</a><br/></b>
-<b><a href="#質問に答える">質問に答える</a>:</b>
+<h4><a href="#ラベルについて">ラベルについて</a></h4>
+&nbsp;<b><a href="#質問に答える">質問に答える</a>:</b>
 <a href="#リンクを使いましょう">リンクを使いましょう</a>,
 <a href="#質問で終わると……">質問で終わると……</a>,
 <a href="#質問(issue)を再編集">質問(issue)を再編集</a>,
